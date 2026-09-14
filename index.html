@@ -7,37 +7,7 @@
   <link rel="stylesheet" href="style.css">
   <title>Flashcard de Mitos e Verdades</title>
 
-  <style>
-    header {
-      background-color: #183C63;
-      color: #ffffff;
-      text-align: center;
-      margin: 0 auto;
-      padding: 16px;
-      border: 5px solid #69c7f3;
-    }
-
-    main {
-      background-color: #98caf0;
-      color: #183C63;
-      text-align: center;
-      margin: 0 auto;
-      padding: 16px;
-    }
-
-    article {
-       display: flex;
-    }
-
-    img {
-      width: 80px;
-      height: 80px;
-    }
-
-    .artigo-autor {
-      font-weight: bold;
-    }
-  </style>
+  
 </head>
 
 <body>
@@ -76,18 +46,6 @@
 
 </body>
 
-<script>
-  const botoes = document.querySelectorAll("button");
 
-  botoes.forEach(function (botao) {
-    botao.addEventListener("click", botaoClicado);
-
-    function botaoClicado() {
-      console.log("fui clicado");
-      let texto = botao.querySelector("span");
-      texto.textContent++;
-    }
-  });
-</script>
 
 </html>
